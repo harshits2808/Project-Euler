@@ -2,4 +2,4 @@
 
 A collection of My codes to about 100 Project Euler problems.
 
-Most of the codes are written in C++, few are in python. Problems easily doable using a pen and paper are not included.
+Most of the problems are solved in C++ and few are solved using Python (Python 3). Problems easily doable using a pen and paper are not included.
