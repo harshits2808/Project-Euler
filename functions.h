@@ -1,4 +1,35 @@
-#include<bits/stdc++.h>
+#include <algorithm>
+#include <bitset>
+#include <complex>
+#include <deque>
+#include <exception>
+#include <fstream>
+#include <functional>
+#include <iomanip>
+#include <ios>
+#include <iosfwd>
+#include <iostream>
+#include <istream>
+#include <iterator>
+#include <limits>
+#include <list>
+#include <locale>
+#include <map>
+#include <memory>
+#include <new>
+#include <numeric>
+#include <ostream>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <stdexcept>
+#include <streambuf>
+#include <string>
+#include <typeinfo>
+#include <utility>
+#include <valarray>
+#include <vector>
 
 long long int gcd(long long int a, long long int b)
 {
@@ -9,7 +40,7 @@ long long int gcd(long long int a, long long int b)
 
 long long int power(long long int x, long long int y)
 {
-    unsigned long long int temp;
+    long long int temp;
     if( y == 0)
         return 1;
     temp = power(x, y/2);
@@ -42,13 +73,13 @@ long long int power(long long int x, long long int y, long long int p)
 bool isprime(long long int n)
 {
 	if(n==2)
-		return 1;
+		return true;
 	if(n%2 == 0 || n==1)
-		return 0;
+		return false;
 	for(long long int i=3;i*i<=n;i+=2)
 		if(n%i==0)
-			return 0;
-	return 1;
+			return false;
+	return true;
 }
 
 int sumdig(long long int n)
@@ -91,8 +122,8 @@ bool ispal(long long int n)
 	}
 	
 	if(rev == n)
-		return 1;
-	return 0;
+		return true;
+	return false;
 }
 
 bool isperm(long long int a,long long int b)
@@ -107,13 +138,13 @@ bool isperm(long long int a,long long int b)
 	}
 	
 	if(a>0 || b>0)
-		return 0;
+		return false;
 	
-	for(int i=0;i<10;i++)
-		if(A[i] != 0)
-			return 0;
+	for(int i : A)
+		if(i != 0)
+			return false;
 	
-	return 1;
+	return true;
 }
 
 long long int fact(long long int n)
@@ -127,7 +158,7 @@ long long int BS(long long int arr[], long long int l, long long int r, long lon
 {
   while (l <= r)
   {
-    int m = l + (r-l)/2;
+    long long int m = l + (r-l)/2;
  
     if (arr[m] == x) 
         return m;  
@@ -148,7 +179,7 @@ void prime_sieve(int arr[],int size)
 		arr[i]=1;
 	arr[0]=arr[1]=0;
 	for(int i=2;i<size;i++)
-		if(arr[i]=1)
+		if(arr[i]==1)
 			for(int j=2*i;j<size;j+=i)
 				arr[j]=0;
 }
@@ -159,7 +190,7 @@ void prime_sieve(bool arr[],int size)
 		arr[i]=1;
 	arr[0]=arr[1]=0;
 	for(int i=2;i<size;i++)
-		if(arr[i]=1)
+		if(arr[i]==1)
 			for(int j=2*i;j<size;j+=i)
 				arr[j]=0;
 }

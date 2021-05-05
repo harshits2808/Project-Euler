@@ -1,6 +1,4 @@
-#include<iostream>
-#include "isprime.h"
-#include<cmath>
+#include "all.h"
 using namespace std;
 
 unsigned long long int power(unsigned long long int n,unsigned long long int p)

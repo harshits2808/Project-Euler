@@ -1,5 +1,4 @@
-#include<iostream>
-#include"isprime.h"
+#include "all.h"
 using namespace std;
 
 long long int p[80000][2];

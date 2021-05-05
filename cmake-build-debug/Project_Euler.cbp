@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project_Euler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Euler">
+				<Option output="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Project_Euler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/."/>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include"/>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_Euler"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_Euler/fast">
+				<Option output="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Project_Euler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/."/>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include"/>
+					<Add directory="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_Euler/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/harshit.singhal/CLionProjects/Project-Euler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/all.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/define.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/functions.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe101.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe102.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe105.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe112.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe123.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe124.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe125.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe131.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe140.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe146.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe162.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe164.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe179.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe187.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe193.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe204.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe205.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe206.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe207.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe214.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe216.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe254.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe258.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe293.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe31.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe315.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe32.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe329.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe33.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe343-Better algorithm.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe343.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe346.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe347.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe348.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe35.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe357.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe358.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe38.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe381.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe386.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe387.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe39.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe40.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe401.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe407.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe42.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe43.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe44.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe45.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe46.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe47.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe479.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe49.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe493.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe50.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe500.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe504.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe506.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe512.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe52.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe54.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe549.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe58.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe581.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe59.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe60.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe601.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe61.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe62.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe65.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe70.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe71.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe72.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe73.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe74.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe76.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe77.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe78.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe81.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe82.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe83.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe85.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe87.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe89.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe90.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe91.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe94.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe95.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe98.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/pe99.cpp">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/Python-ast.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/Python.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/abstract.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/asdl.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/ast.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/bitset.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/boolobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/bufferobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/bytearrayobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/bytes_methods.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/bytesobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/cStringIO.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/cellobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/ceval.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/classobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/cobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/code.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/codecs.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/compile.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/complexobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/datetime.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/descrobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/dictobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/dtoa.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/enumobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/errcode.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/eval.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/fileobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/floatobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/frameobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/funcobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/genobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/graminit.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/grammar.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/import.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/intobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/intrcheck.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/iterobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/listobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/longintrepr.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/longobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/marshal.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/memoryobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/metagrammar.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/methodobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/modsupport.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/moduleobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/node.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/object.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/objimpl.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/opcode.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/osdefs.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/parsetok.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/patchlevel.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pgen.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pgenheaders.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/py_curses.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyarena.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pycapsule.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyconfig.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyctype.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pydebug.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyerrors.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyexpat.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyfpe.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pygetopt.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pymacconfig.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pymactoolbox.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pymath.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pymem.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pyport.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pystate.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pystrcmp.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pystrtod.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pythonrun.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/pythread.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/rangeobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/setobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/sliceobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/stringobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/structmember.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/structseq.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/symtable.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/sysmodule.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/timefuncs.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/token.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/traceback.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/tupleobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/ucnhash.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/unicodeobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/warnings.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/include/python2.7/weakrefobject.h">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/venv/lib/python2.7/config/config.c">
+			<Option target="Project_Euler"/>
+		</Unit>
+		<Unit filename="/Users/harshit.singhal/CLionProjects/Project-Euler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

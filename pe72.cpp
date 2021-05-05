@@ -3,6 +3,7 @@
 using namespace std;
 
 int phi[1000001];
+#define MAX 1000001
 
 void compute()
 {

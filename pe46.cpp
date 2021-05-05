@@ -1,6 +1,4 @@
-#include<iostream>
-#include "isprime.h"
-#include<cmath>
+#include "all.h"
 using namespace std;
 
 	int prime[1000000];

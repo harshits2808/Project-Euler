@@ -1,7 +1,7 @@
 #include "all.h"
 
-ull sum[50000000];
-ull A[10000];
+ll sum[50000000];
+ll A[10000];
 
 int main()
 {

@@ -1,16 +1,5 @@
 #include "all.h"
 
-bool is_cube(long long int n)
-{
-	long long int c = cbrt(n);
-	if(c*c*c == n) return 1;
-	c++;
-	if(c*c*c == n) return 1;
-	c-=2;
-	if(c*c*c == n) return 1;
-	return 0;
-}
-
 int main()
 {int ans=0;
 	for(int i=2;i<ten6;i++)

@@ -1,6 +1,4 @@
-#include<iostream>
-#include<cstring>
-#include "isprime.h"
+#include "all.h"
 using namespace std;
 
 int main()

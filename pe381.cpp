@@ -1,6 +1,4 @@
-#include<iostream>
-#include "isprime.h"
-#include<cstring>
+#include "all.h"
 using namespace std;
 
 long long int limit = 100000000;
